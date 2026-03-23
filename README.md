@@ -18,7 +18,7 @@ The system takes log files as input, processes them using embedding models and v
 
 The goal of the Application Log Monitoring System is to improve debugging efficiency, reduce manual effort, and enable faster issue resolution for developers and system administrators.
 
-# Objectives
+# 🎯 Objectives
 
 * To collect and process application log datasets
 * To preprocess and structure log data for analysis
@@ -26,7 +26,7 @@ The goal of the Application Log Monitoring System is to improve debugging effici
 * To implement semantic search using FAISS
 * To provide an intelligent query-based log retrieval system
 
-# Technologies Used
+# 🧠 Technologies Used
 
 * Python
 * Streamlit
@@ -48,6 +48,7 @@ The goal of the Application Log Monitoring System is to improve debugging effici
 
 # Project Structure
 
+```
 ApplicationLogMonitoring/
 │
 ├── logs/              # Log files (TXT, PDF)
@@ -57,6 +58,7 @@ ApplicationLogMonitoring/
 ├── results/           # Output results
 └── app.py             # Streamlit application
 
+```
 # 📄 Abstract
 
 Efficient log analysis is critical for maintaining system reliability and performance. This project proposes an AI-based Application Log Monitoring System that uses semantic search and Large Language Models to analyze log data.
