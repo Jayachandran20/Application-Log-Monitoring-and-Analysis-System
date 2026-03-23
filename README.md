@@ -79,7 +79,7 @@ User → Upload Logs → Preprocessing → Chunking → Embeddings → FAISS →
 
 # Code Implementation
 
-'''python
+```python
 
 import streamlit as st
 import time
@@ -236,7 +236,7 @@ if uploaded_file:
 
 # ---------- Footer ----------
 st.markdown('<div class="footer">🌐 Made for log monitoring using Streamlit UI • </div>', unsafe_allow_html=True)
-'''
+```
 
 # 🔮 Future Work
 
